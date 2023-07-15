@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /** main - Determine if a random number is a positive,negative or a zero.
- * return: 0 on success
+ * Return: 0 Always (success)
  *
  */
 int main (void)
@@ -25,6 +25,6 @@ int main (void)
 	 printf("%d is negative\n", n);
        }
           
-         return 0;
+         return (0);
 }	 
 
