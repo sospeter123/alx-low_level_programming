@@ -5,9 +5,9 @@
 #include <stdio.h>
 
  /** 
-  * main-Entry point
+  * main - Entry point
   *
-  *Return: Always (success)
+  *Return:Always(success)
  */
 int main(void)
 
@@ -15,7 +15,7 @@ int main(void)
 
        int n,lastd;
 
-       srand(time(0));
+      srand(time(0));
       n = rand() - RAND_MAX / 2;
       lastd = n % 10;
 
@@ -34,5 +34,5 @@ int main(void)
       }
       return (0);
 
-  }
+ }
       
