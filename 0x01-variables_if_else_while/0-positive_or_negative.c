@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* main - Determine if a random number is a positive,negative or a zero.
+/** main - Determine if a random number is a positive,negative or a zero.
  * return: 0 on success
+ *
  */
 int main (void)
 { 
@@ -12,11 +13,12 @@ int main (void)
 
 	if (n < 0)
 	{
-	  printf("%d is %s\n", n, "negative");
+	  printf("%d is negative\n", n);
 	}
        else if (n > 0) 
        { 
-         printf("%d is %s\n", n, "positive");
+         printf("%d is positive\n", n);
+
        } 
        else 
        {
