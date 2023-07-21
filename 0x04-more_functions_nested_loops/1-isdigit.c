@@ -6,7 +6,7 @@
  * Return: 1 for upper letter or 0 for any else
  */
  
- int _isupper(int x)
+ int _isdigit(int x)
  {
  
       if (x >= 48 && x <= 57)
